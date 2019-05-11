@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "component/*": ["component/*"],
+      "store/*": ["store/*"],
+    },
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
